@@ -64,5 +64,112 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-augments-dev is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://augments.dev/
+Augments.dev provides an MCP (Model Context Protocol) server that delivers TypeScript type signatures, documentation, and code examples for any npm package. By integrating with Claude, it enables AI models to fetch up-to-date API information, intent-aware formatting, and practical examples across the entire npm ecosystem. The service auto-discovers package metadata, resolves versions, and returns structured responses for queries about functions, hooks, and libraries, supporting developers and AI assistants in generating accurate, current code snippets and documentation.
+
+**Areas:** Company · AI · TypeScript · npm · Documentation · CodeExamples
+
+## augments-dev on APIs.io
+
+Everything profiled for augments-dev is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/augments-dev/](https://apis.io/providers/augments-dev/)** — or go straight to one of the APIs or properties below.
+
+### APIs (4)
+
+- [Model Context Protocol (MCP)](https://apis.io/apis/augments-dev/model-context-protocol-mcp/) — MCP provides a server delivering TypeScript type signatures, documentation, and code examples for npm packages via a Model Context Protocol.
+- [augments-dev 2026 07 28 API](https://apis.io/apis/augments-dev/2026-07-28-api/) — augments-dev 2026 07 28 API as documented publicly: 3 operations. Contract generated from the documentation by API Evangelist (2026-10-30); not the…
+- [augments-dev core API](https://apis.io/apis/augments-dev/core-api/) — augments-dev core API as documented publicly: 6 operations. Contract generated from the documentation by API Evangelist (2026-10-30); not the provider's own…
+- [augments-dev draft API](https://apis.io/apis/augments-dev/draft-api/) — augments-dev draft API as documented publicly: 4 operations. Contract generated from the documentation by API Evangelist (2026-10-30); not the provider's…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### JSON Schema (2)
+
+The data models the API reads and writes.
+
+- [GetHealthzResponse](https://apis.io/schemas/augments-dev/augments-dev-get-healthz-response/)
+- [GetV01ServersResponse](https://apis.io/schemas/augments-dev/augments-dev-get-v01-servers-response/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Augments Dev Context](https://apis.io/jsonld/augments-dev/augments-dev-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [augments-dev API Rules](https://apis.io/rules/augments-dev/augments-dev-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Augments Dev Authentication](https://apis.io/security/augments-dev/augments-dev-authentication/)
+- [Augments Dev Domain Security](https://apis.io/security/augments-dev/augments-dev-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://augments.dev/)
+- [Documentation](https://modelcontextprotocol.io/)
+- [Getting started](https://modelcontextprotocol.io/docs/2026-07-28/getting-started/intro)
+- [Blog](https://blog.modelcontextprotocol.io)
+- [GitHub](https://github.com/augmnt)
+
+## API Evangelist rating
+
+**Kin Score 41.5** — developing · rubric 0.25.0 · scored 2026-10-30
+
+| Facet | Score |
+|---|---|
+| Discoverability | 62.5 |
+| Contract quality | 47.0 |
+| Contract governance | 70.9 |
+| Operational transparency | 23.7 |
+| Developer ergonomics | 59.5 |
+| Access clarity | 0.0 |
+
+**Agent readiness 44.2** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | conformant |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+
+**Regulatory alignment 15.5** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/augments-dev/](https://apis.io/providers/augments-dev/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for augments-dev: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/augments-dev/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
